@@ -117,11 +117,16 @@
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 992px) {
   .container {
       width: 100%;
       min-height: 100vh;
     }
+
+.number-votes {
+  bottom: 10%;
+}
+    
   .buttons{
     width: 90%;
     min-height:100px;
