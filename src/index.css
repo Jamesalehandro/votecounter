@@ -1,0 +1,154 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-color: gray;
+  position: relative;
+  display: flex;
+}
+
+.dog-side{
+  position: relative;
+}
+
+.cat-side{
+    position: relative;
+}
+
+
+.buttons{
+  width: 25%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  min-height:200px;
+  background-color: #fff;
+  z-index: 2;
+  border-radius: 10px;
+}
+
+.buttons .divider {
+  height: 150px;
+  border: 1px solid grey;
+}
+
+
+
+.dog {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.dog:active{
+  transform: scale(0.95)
+}
+
+.cat{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.cat:active {
+  transform: scale(0.95)
+}
+
+.dog h3{
+  font-size: 50px;
+  color: #63CAC8;
+  font-weight: 500;
+}
+
+.dog p {
+  font-size: 30px;
+  color: #63CAC8;
+  font-weight: 400;
+}
+
+
+.cat h3{
+  font-size: 50px;
+  color: #5E9EDC;
+  font-weight: 500;
+}
+
+.cat p {
+  font-size: 30px;
+  color: #5E9EDC;
+  font-weight: 400;
+}
+
+.number-votes{
+    min-width: 100px;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    justify-content: flex-end;
+    z-index: 2;
+    color: #B2E8E9;
+}
+
+
+@media (max-width: 480px) {
+  .container {
+      width: 100%;
+      min-height: 100vh;
+    }
+  .buttons{
+    width: 90%;
+    min-height:100px;
+    top: 30%;
+    
+  }
+
+    .dog h3 {
+      font-size: 30px;
+    
+    }
+  
+    .dog p {
+      font-size: 20px;
+     
+    }
+  
+  
+    .cat h3 {
+      font-size: 30px;
+     
+    }
+  
+    .cat p {
+      font-size: 20px;
+     
+    }
+}
+
+
