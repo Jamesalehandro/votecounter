@@ -36,6 +36,7 @@ const VotePage = () => {
         style={{
           width: catWidth + '%',
           backgroundColor: '#4EA1ED',
+          transition: 'width .9s ease-in-out',
         }}
       ></section>
 
@@ -44,6 +45,7 @@ const VotePage = () => {
         style={{
           width: dogWidth + '%',
           backgroundColor: '#65CFCF',
+          transition: 'width 0.9s ease-in-out',
         }}
       ></section>
 
