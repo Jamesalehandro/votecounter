@@ -20,14 +20,14 @@ const VotePage = () => {
     <div className={'container'}>
       <div className={'buttons'}>
         <div className={'cat'} onClick={() => setCatVotes(catVotes + 1)}>
-          <h3>Cats</h3>
+          <h3>CATS</h3>
           <p>{catWidth ? catWidth : 0}%</p>
         </div>
 
         <div className={'divider'}></div>
 
         <div className={'dog'} onClick={() => setDogVotes(dogVotes + 1)}>
-          <h3>Dogs</h3>
+          <h3>DOGS</h3>
           <p>{dogWidth ? dogWidth : 0}%</p>
         </div>
       </div>
