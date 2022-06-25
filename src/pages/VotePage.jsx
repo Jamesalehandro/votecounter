@@ -34,7 +34,7 @@ const VotePage = () => {
       <section
         className={'cat-side'}
         style={{
-          width: catWidth + '%',
+          width: `${catWidth}%`,
           backgroundColor: '#4EA1ED',
           transition: 'width .9s ease-in-out',
         }}
@@ -43,7 +43,7 @@ const VotePage = () => {
       <section
         className={'dog-side'}
         style={{
-          width: dogWidth + '%',
+          width: `${dogWidth}%`,
           backgroundColor: '#65CFCF',
           transition: 'width 0.9s ease-in-out',
         }}
